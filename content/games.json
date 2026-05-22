@@ -1,0 +1,51 @@
+[
+  {
+    "slug": "macadoku",
+    "title": "Macadoku",
+    "status": "qa",
+    "platforms": ["iOS", "Android"],
+    "accent": "coral",
+    "theme": "dark",
+    "links": {},
+    "translations": {
+      "es": {
+        "subtitle": "Sudoku + murdoku",
+        "body": "Resuelve la cuadrícula, resuelve el crimen. Cada casilla descubre una pista; cada pista cambia el caso.",
+        "statusLabel": "EN QA",
+        "tags": ["Puzzle", "Narrativo"]
+      },
+      "en": {
+        "subtitle": "Sudoku + murdoku",
+        "body": "Solve the grid, solve the crime. Each cell reveals a clue; each clue changes the case.",
+        "statusLabel": "IN QA",
+        "tags": ["Puzzle", "Narrative"]
+      }
+    }
+  },
+  {
+    "slug": "cerogluten-lab",
+    "title": "CeroGluten Lab",
+    "status": "available",
+    "platforms": ["iOS", "Android"],
+    "accent": "lila",
+    "theme": "soft",
+    "links": {
+      "ios": "https://apps.apple.com/us/app/cerogluten-lab/id6767042384",
+      "android": "/cerogluten-lab-android"
+    },
+    "translations": {
+      "es": {
+        "subtitle": "Escape room educativo",
+        "body": "Puzzles de contaminación cruzada, etiquetas y cocina sin gluten. Para celíacas curiosas y para quien cocina para una.",
+        "statusLabel": "DISPONIBLE",
+        "tags": ["Puzzle", "Educativo"]
+      },
+      "en": {
+        "subtitle": "Educational escape room",
+        "body": "Cross-contamination puzzles, food labels, and gluten-free cooking. For curious coeliacs and for anyone who cooks for one.",
+        "statusLabel": "AVAILABLE",
+        "tags": ["Puzzle", "Educational"]
+      }
+    }
+  }
+]
