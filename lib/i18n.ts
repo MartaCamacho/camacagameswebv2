@@ -56,6 +56,23 @@ export const t = {
       accept:      'Aceptar',
       reject:      'Rechazar',
     },
+    notFound: {
+      eyebrow:     'Error 404',
+      h1_pre:      'Esta página no',
+      h1_serif:    'existe.',
+      body:        'Parece que la dirección está mal o la página ya no está. No te preocupes, desde aquí puedes volver a donde importa.',
+      cta_home:    'Ir a inicio',
+      cta_contact: 'Escríbenos',
+    },
+    error: {
+      eyebrow:     'Algo salió mal',
+      h1_pre:      'Ups, esto no',
+      h1_serif:    'debería pasar.',
+      body:        'Ha ocurrido un error inesperado. Puedes intentarlo de nuevo o volver a inicio — y si el problema persiste, escríbenos.',
+      cta_home:    'Ir a inicio',
+      cta_retry:   'Intentar de nuevo',
+      cta_contact: 'Escríbenos',
+    },
   },
   en: {
     nav: {
@@ -111,6 +128,23 @@ export const t = {
       privacyLink: 'Privacy policy',
       accept:      'Accept',
       reject:      'Decline',
+    },
+    notFound: {
+      eyebrow:     'Error 404',
+      h1_pre:      'This page doesn\'t',
+      h1_serif:    'exist.',
+      body:        'Looks like the address is wrong or the page is gone. No worries — from here you can get back to where it matters.',
+      cta_home:    'Go home',
+      cta_contact: 'Get in touch',
+    },
+    error: {
+      eyebrow:     'Something went wrong',
+      h1_pre:      'Oops, this',
+      h1_serif:    'shouldn\'t happen.',
+      body:        'An unexpected error occurred. You can try again or go back home — and if the problem persists, drop us a line.',
+      cta_home:    'Go home',
+      cta_retry:   'Try again',
+      cta_contact: 'Get in touch',
     },
   },
 } as const
