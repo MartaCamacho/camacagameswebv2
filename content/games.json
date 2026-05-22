@@ -35,14 +35,14 @@
     },
     "translations": {
       "es": {
-        "subtitle": "Escape room educativo",
-        "body": "Puzzles de contaminación cruzada, etiquetas y cocina sin gluten. Para celíacas curiosas y para quien cocina para una.",
+        "subtitle": "Diviértete y pon a prueba tus conocimientos sobre celiaquía",
+        "body": "El espacio donde aprender sobre la celiaquía deja de ser un trámite y se convierte en un juego. Tanto si eres celíaco como si convives con alguien que lo es, aquí encontrarás una forma diferente de entender qué significa vivir sin gluten.",
         "statusLabel": "DISPONIBLE",
         "tags": ["Puzzle", "Educativo"]
       },
       "en": {
-        "subtitle": "Educational escape room",
-        "body": "Cross-contamination puzzles, food labels, and gluten-free cooking. For curious coeliacs and for anyone who cooks for one.",
+        "subtitle": "Have fun and test your knowledge about coeliac disease",
+        "body": "The space where learning about coeliac disease stops being a chore and becomes a game. Whether you're coeliac or live with someone who is, here you'll find a different way to understand what it means to live gluten-free.",
         "statusLabel": "AVAILABLE",
         "tags": ["Puzzle", "Educational"]
       }
