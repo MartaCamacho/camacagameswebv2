@@ -4,6 +4,7 @@ import { useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 
 const IOS_URL = 'https://apps.apple.com/us/app/cerogluten-lab/id6767042384'
+const ANDROID_URL = 'https://play.google.com/store/apps/details?id=com.camaca.games.ceroglutenlab'
 
 declare global {
   interface Window {
@@ -27,7 +28,7 @@ export default function CeroGlutenLabQR() {
     if (isIOS) {
       window.location.href = IOS_URL
     } else if (isAndroid) {
-      router.push('/cerogluten-lab-android')
+      window.location.href = ANDROID_URL
     } else {
       router.push('/')
     }

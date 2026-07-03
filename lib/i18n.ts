@@ -43,13 +43,6 @@ export const t = {
       copyright:    'Hecho en Barcelona.',
       privacyLink:  'Política de privacidad',
     },
-    androidComingSoon: {
-      title:    'Próximamente para Android',
-      message:  'CeroGluten Lab aún no está disponible para Android. ¡Estamos trabajando en ello y pronto estará lista!',
-      button:   'Avísame cuando esté lista',
-      fallback: 'O mándanos un email directamente:',
-      backLink: '← Inicio',
-    },
     cookieConsent: {
       message:     'Usamos cookies analíticas para mejorar la experiencia.',
       privacyLink: 'Política de privacidad',
@@ -115,13 +108,6 @@ export const t = {
       studio_links: ['About me', 'Devlog', 'Press'],
       copyright:    'Made in Madrid.',
       privacyLink:  'Privacy policy',
-    },
-    androidComingSoon: {
-      title:    'Coming Soon for Android',
-      message:  "CeroGluten Lab is not yet available for Android. We're working on it — it'll be ready soon!",
-      button:   "Notify me when it's ready",
-      fallback: 'Or send us an email directly:',
-      backLink: '← Back to home',
     },
     cookieConsent: {
       message:     'We use analytics cookies to improve the experience.',
