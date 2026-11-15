@@ -85,3 +85,28 @@ No hay `tailwind.config.js` — Tailwind v4 lee los tokens directamente del CSS.
 | `ink` | `#241B2E` | Texto / fondo oscuro |
 | `lila` | `#7B6CF6` | Acento primario |
 | `coral` | `#F08775` | Acento secundario |
+
+## Deploy (Vercel)
+
+El deploy es automático: el repo de GitHub está conectado a Vercel.
+
+- **Push a `main`** → Vercel hace el build y lo publica en producción (camacagames.com).
+- **Push a cualquier otra rama** → deploy de preview con su propia URL `*.vercel.app`, para probar antes de mergear.
+
+No hay que hacer build ni subir nada a mano. El estado de cada deploy se ve en el panel de Vercel y en el commit en GitHub.
+
+Antes de hacer push conviene comprobar que compila en local con `npm run build`: si falla aquí, también fallará en Vercel y producción se queda en la versión anterior.
+
+La config `output: 'export'` + `trailingSlash: true` de `next.config.ts` se mantiene: genera un sitio estático y conserva las URLs con barra final (p. ej. `/cerogluten-lab-qr/`, la de los QR).
+
+### Dominio y DNS
+
+El dominio está registrado en **cdmon** y sus DNS se gestionan en cdmon. Solo hay dos registros que apuntan a Vercel:
+
+| Registro | Valor |
+|----------|-------|
+| `A` de `camacagames.com` | IP de Vercel (la que muestra Vercel → Settings → Domains) |
+| `CNAME` de `www` | CNAME de Vercel (ídem) |
+
+**No tocar** el resto de registros: `MX`, `A` de `mail` y el `TXT` de SPF son del correo `hello@camacagames.com`, que sigue en cdmon. Tampoco hay que cambiar los nameservers a Vercel.
+
